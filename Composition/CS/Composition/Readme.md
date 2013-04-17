@@ -46,14 +46,6 @@ approach (in the Composition folder).
   1.	Open the solution file. 
 
   2.	Run the tests to make sure everything is in working order.
-		Note: you'll need to use an xUnit.net test runner. 
-		
-		R# users can get xunitcontrib-resharper from http://xunitcontrib.codeplex.com/
-		
-		Or, you can use the xUnit runner for Visual Studio 2012 http://visualstudiogallery.msdn.microsoft.com/463c5987-f82b-46c8-a97e-b1cde42b9099
-		
-		Or, you can download xUnit from http://xunit.codeplex.com/releases/view/77573.
-		Once you've unblocked and extracted the files, run xunit.gui.exe.
 
   3.	Start in the AggregationTests.cs file from the Algorithm.Tests.Inheritance folder.
 		Uncomment the last test in the file, and make it pass by building a 
